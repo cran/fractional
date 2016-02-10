@@ -120,7 +120,7 @@ This is essentially a method function for `base::as.numeric` providing coercion 
 
 It is written as an S3 generic function, and the main methods uses `numerators` and `denominators` in an obvious way. 
 
-The `default` method passes the object to `base;;as.numeric`.
+The `default` method passes the object to `base::as.numeric`.
 
 ## `rat`, `ratr` and `.ratr`
 

@@ -1,4 +1,4 @@
-f6ae99c5e237992e3c3b5b38aaad6348 *DESCRIPTION
+9c974f4a05523122461b4a7efd78a638 *DESCRIPTION
 d7b6efc35ba9d5661041c2b759054b62 *NAMESPACE
 89508c0f6b5244a5c9d1f0e21864f43a *R/RcppExports.R
 4f7d634eeb07caa4b2673cbc029fb140 *R/fractionl.R
@@ -21,6 +21,6 @@ b0bfd485d6c8a721f3c70251e81148ed *man/numerical.Rd
 7c4e808545d3777f41641cd9ee13842d *src/RcppExports.cpp
 81450be0902f2c3b6dc0b60d53b6db03 *src/fractional.cpp
 a88274a0774d5eff01695198714d241f *vignettes/Theory.Rmd
-acc93cf87017fb6aa5b1b89613dcb2ac *vignettes/Vulgar_Fractions_in_R.Rmd
+57d33379eb7394ef8d003070d9657b14 *vignettes/Vulgar_Fractions_in_R.Rmd
 197e2a6fe64e0e5e16bbca4522785469 *vignettes/fractional_style.css
 e066719be22d0f399fe4293291b4ae07 *vignettes/refs.bib
