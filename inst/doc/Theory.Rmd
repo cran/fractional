@@ -25,6 +25,12 @@ library(fractional)
 library(ggplot2)
 ```
 
+> __NOTE:__ If the mathematical inserts in this vignette are not displaying correctly or
+> even replaced by messages <span style="color:red">_[Math processing error]_</span>
+> it is most likely a caching problem with your browser.  This may be solved by
+> a "hard reload", that is, by holding down the _Shift_ key while clicking on
+> the "reload/refresh" button.  See, for example,
+> [this stackexchange query and reply](http://meta.math.stackexchange.com/questions/3627/why-is-math-processing-error-all-over-the-place-today).
 
 # Rational approximation by continued fractions
 

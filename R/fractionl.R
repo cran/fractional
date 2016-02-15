@@ -192,9 +192,10 @@ as.character.fractional <- function (x, eps = attr(x, "eps"),
 #' @describeIn fractional Print method for class \code{"charFrac"} objects, unquoted.
 #' @export
 print.charFrac <- function(x, ...) {
-  x <- unclass(x)
+  y <- x
+  x <- gsub("^0$", ".", unclass(x))
   NextMethod("print", quote = FALSE, ...)
-  invisible(x)
+  invisible(y)
 }
 
 #' Convert a fractional object to the equivalent numeric object
@@ -246,7 +247,8 @@ numerical.default <- function(vulgar) {
 #' @export
 print.fractional <- function (x, ...) {
   x0 <- x
-  y <- format(as.character.fractional(x), justify = "right")
+  y <- gsub("^0$", ".", as.character.fractional(x))
+  y <- format(y, justify = "right")
   ax <- attributes(x)
   ax$class <- ax$eps <- ax$maxConv <- ax$sync <- NULL
   x <- do.call("structure", c(list(y), ax))
